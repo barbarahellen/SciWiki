@@ -1,0 +1,169 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+:root {
+  --blue-01: #113946;
+  --white: #F0F0F0;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', 'sans-serif'
+}
+
+a {
+  color: #000;
+  text-decoration: none;
+}
+
+.bg-nav-bar{
+  background-color: var(--blue-01);
+}
+
+.bg-custom-color-one {
+  background-color: var(--white);
+}
+
+
+
+.btn.btn-light {
+  background-color: var(--blue-01);
+  color: white;
+  padding-left: 20px;
+  padding-right: 20px;
+  margin-right: 10px;
+  transition: background-color 0.3s ease; 
+}
+
+
+.d-sm-flex {
+    margin-top: -70px; 
+}
+
+h1{
+  color: var(--blue-01);
+  margin-top: -50px;
+}
+
+.text-one{
+  color: var(--blue-01);
+  font-size: 20px;
+  font-weight: 400;
+}
+
+.lead.my-4{
+  color: var(--blue-01);
+}
+
+.bg-custom-footer{
+  background-color: var(--blue-01);
+}
+
+
+.footer-link{
+  color: white;
+}
+
+
+/* Página cadastro */
+
+.choose-group{
+    display: flex;
+    /*margin-top: 0.62rem;*/
+    padding: 0.5 0.5rem;
+}
+
+
+.choose-input{
+    display:flex;
+    align-items: center;
+    margin-right: 1rem;
+}
+
+.choose-input input{
+    margin-right: 0.35rem;
+}
+
+.choose-input label{
+    /*font-size: 0.81rem;*/
+    /*font-weight: 600;*/
+    color: #000000c0;
+}
+
+
+
+.pesquisar{
+  display: flexbox;
+}
+.lateral-menu{
+  width: 300px;
+  background-color: #fff;
+}
+.lateral-menu.i.a{
+  color: var(--blue-01);
+}
+.nav-link{
+  color: #ffffff;
+}
+
+
+.d-flex{
+  margin-top: 100px;
+}
+
+.form-control {
+    width: 200px; 
+}
+
+.pesquisar-h1{
+  color: var(--blue-01);
+  margin-top: 20px;
+  font-size: 30px;
+  text-align: center;
+}
+
+.projects-h1{
+  color: var(--blue-01);
+  margin-top: 20px;
+  font-size: 30px;
+  text-align: center;
+  
+}
+
+/*
+.menu-lateral {
+      display: flex;
+      height: 100vh;
+      width: 250px;
+      background-color: var(--blue-01);
+      padding-top: 20px;
+      color: #fff;
+      text-align: center;
+    }
+*/
+.card-text{
+  text-align: justify;
+}
+.col-md.p-5{
+  text-align: justify;
+}
+
+.choose-input label {
+    display: inline-block; /* Define os rótulos como elementos de bloco em linha */
+    white-space: nowrap; /* Impede a quebra de linha dentro dos rótulos */
+    margin-right: 10px; /* Adiciona um espaço entre os rótulos */
+}
+
+@media (max-width: 500px) {
+      .h3{
+         font-size: 18px; 
+      }
+
+}
+
+
+
+
+
+
