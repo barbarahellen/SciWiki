@@ -29,7 +29,7 @@ GPT-3 was used to generate the texts seen on the pages.
 [GPT-3](https://chat.openai.com/)<br>
 
 ### PROJECT PRESENTATION
-You can access our website by clicking [here](https://sciwiki.000webhostapp.com/index.php) or [here](https://sciwiki.janinedede.repl.co/)<br>
+You can access our website by clicking [here](https://sciwiki.000webhostapp.com/index.php)
 
 ![Initial page](img/pages/initialPage.png)<br>
 ![Login page](img/pages/loginPage.png)<br>
